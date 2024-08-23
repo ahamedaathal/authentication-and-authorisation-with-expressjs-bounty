@@ -10,17 +10,23 @@ This application is designed to run in a GitHub Codespace environment. The front
 
 ### Environment Setup
 
-1. Create a `.env` file in the `back-end` folder with the following content:
+### Environment Setup
 
-````plaintext
+1. Create a `.env` file in the `back-end` folder and paste the following content:
+
+```plaintext
 TOKEN_KEY="StackUpAuthenticationProject123!"
 PORT=4001
 
-2. To run the backend, navigate to the `back-end` folder and use the following command:
+Navigate to the back-end folder and run the following command to install the necessary dependencies:
 
-```bash
 npm install
+
+To run the backend server, use the following command:
+
 npm start
+
+For the frontend, open index.html using Live Server extension in your code editor.
 
 ### Code Setup
 
@@ -69,4 +75,4 @@ To understand why this approach is flawed, it's crucial to distinguish between a
 While authentication is a crucial first step in securing an application, it should always be coupled with proper authorization mechanisms. This ensures that authenticated users can only perform actions they're explicitly allowed to do, maintaining the security and integrity of the system.
 
 By implementing both authentication and authorization correctly, we create a robust security model that protects our application and its users from potential misuse and unauthorized actions.
-````
+```
