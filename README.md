@@ -13,16 +13,14 @@ This application is designed to run in a GitHub Codespace environment. The front
 1. Create a `.env` file in the `back-end` folder with the following content:
 
 ````plaintext
-    TOKEN_KEY="StackUpAuthenticationProject123!"
-    PORT=4001
-    ```
+TOKEN_KEY="StackUpAuthenticationProject123!"
+PORT=4001
 
 2. To run the backend, navigate to the `back-end` folder and use the following command:
 
 ```bash
 npm install
 npm start
-```
 
 ### Code Setup
 
