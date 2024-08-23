@@ -14,9 +14,10 @@ This application is designed to run in a GitHub Codespace environment. The front
 
 1. Create a `.env` file in the `back-end` folder and paste the following content:
 
-```plaintext
+```
 TOKEN_KEY="StackUpAuthenticationProject123!"
 PORT=4001
+```
 
 Navigate to the back-end folder and run the following command to install the necessary dependencies:
 
@@ -75,4 +76,7 @@ To understand why this approach is flawed, it's crucial to distinguish between a
 While authentication is a crucial first step in securing an application, it should always be coupled with proper authorization mechanisms. This ensures that authenticated users can only perform actions they're explicitly allowed to do, maintaining the security and integrity of the system.
 
 By implementing both authentication and authorization correctly, we create a robust security model that protects our application and its users from potential misuse and unauthorized actions.
+
+```
+
 ```
